@@ -1,0 +1,169 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    width:100vw;
+    height:600px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width:100vw;
+    height:60px;
+}
+
+.nav-menu{
+    width:60vw;
+    height:60px;
+}
+.zomato{
+    display: block;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    font-size: 68px;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-flex{
+    margin-top: 100px;
+    color:white;
+}
+.nav-link{
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+}
+.nav-link:hover{
+    border-bottom: 5px solid white;
+}
+
+.search-box{
+    width:30vw;
+    height:60px;
+    background-color: white;
+    border:none;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline:none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.search-btn{
+    width: 130px;
+    background-color:white;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*#second-section{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.card{
+    width:100%;
+    height:200px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ccc;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px #000;
+    cursor:pointer;
+}
+.card-bottom{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+
+
+.heading{
+    text-align: center;
+    height: 50px;
+    margin-top:50px;
+    font-size: 18px;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+#popular-locations{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.popular-heading{
+    font-size: 40px;
+    color: black;
+}
+.locations-div{
+    width:100%;
+    height:60px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.locations-div:hover{
+    box-shadow: 1px 1px 5px #ccc;
+}
+#get-zomato-app{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(234, 241, 130, 0.1);
+}
+.email-input{
+    width:250px;
+    height: 40px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    outline:none;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+@media only screen and (max-width : 768px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+}
+*/
+.container h1{
+    color: rgb(256,256,256);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+ } 
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
