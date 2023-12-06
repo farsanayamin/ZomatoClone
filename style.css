@@ -5,7 +5,7 @@ html,body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
-header{
+header-img{
     position: relative;
     width:100vw;
     height:600px;
